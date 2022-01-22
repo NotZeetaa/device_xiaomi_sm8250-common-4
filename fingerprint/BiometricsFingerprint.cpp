@@ -481,14 +481,6 @@ Return<void> BiometricsFingerprint::onFingerDown(uint32_t /* x */, uint32_t /* y
     return Void();
 }
 
-Return<void> BiometricsFingerprint::onShowUdfpsOverlay() {
-    return Void();
-}
-
-Return<void> BiometricsFingerprint::onHideUdfpsOverlay() {
-    return Void();
-}
-
 Return<void> BiometricsFingerprint::onFingerUp() {
     set(DISPPARAM_PATH, DISPPARAM_FOD_HBM_OFF);
     return Void();

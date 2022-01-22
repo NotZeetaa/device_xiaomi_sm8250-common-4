@@ -88,7 +88,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.a2dp.default \
     audio.bluetooth.default \
-    audio.primary.default \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
@@ -397,7 +396,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 30
+PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
 
 # WiFi
 PRODUCT_PACKAGES += \
